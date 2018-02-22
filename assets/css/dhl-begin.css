@@ -1,0 +1,384 @@
+@charset "UTF-8";
+/* line 2, ../sass/dhl-begin.scss */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  vertical-align: baseline;
+}
+
+/* line 9, ../sass/dhl-begin.scss */
+html, body {
+  margin: 0px;
+  height: 100%;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  /*"Source Sans Pro", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  line-height: 1.5em;
+  color: #0a141e;
+}
+
+/* line 17, ../sass/dhl-begin.scss */
+h1 {
+  font-family: lato;
+  color: #464646;
+  /*line-height: 40px;*/
+}
+
+/* line 23, ../sass/dhl-begin.scss */
+p {
+  padding: 0 0 0 0;
+  margin: 1em 2em 0 2em;
+  text-align: justify;
+  font-size: 1.125em;
+  color: #324650;
+}
+
+/* line 31, ../sass/dhl-begin.scss */
+a:link {
+  text-decoration: none;
+  color: #0a0a0a;
+}
+
+/* line 35, ../sass/dhl-begin.scss */
+a:visited {
+  color: #0a0a0a;
+}
+
+/* line 39, ../sass/dhl-begin.scss */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100%;
+  text-align: center;
+}
+
+/* line 47, ../sass/dhl-begin.scss */
+.main-header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(172, 147, 167, 0.6);
+  width: 100%;
+  height: 10em;
+}
+
+/* line 54, ../sass/dhl-begin.scss */
+.logo {
+  margin: 2em 0 0 2em;
+  width: 20em;
+  height: 4em;
+  background-image: url("../../img/logo_dharnosLima.svg");
+  background-repeat: no-repeat;
+  background-size: 17em;
+}
+
+/* line 63, ../sass/dhl-begin.scss */
+.card-contact {
+  padding: 3em 0 0 .5em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30em;
+  box-shadow: -0.1em 0 0 0 black, -0.3em 0 0 0 #fa6400;
+}
+
+/* line 73, ../sass/dhl-begin.scss */
+.main-navbar {
+  background-color: rgba(172, 147, 167, 0.8);
+  box-shadow: 0 0.5em 0 0 rgba(172, 147, 167, 0.8);
+  height: 3.8em;
+  display: inline;
+}
+
+/* line 80, ../sass/dhl-begin.scss */
+.main-navbar ul {
+  display: flex;
+  justify-content: center;
+  margin: 0 10% 0 0;
+}
+
+/* line 86, ../sass/dhl-begin.scss */
+.main-navbar * a {
+  font-size: 1.8em;
+  font-family: sans-serif;
+  width: 5em;
+  height: 1.5em;
+  padding-top: .5em;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* line 96, ../sass/dhl-begin.scss */
+.main-navbar * a:visited, * a:link {
+  color: #0a0a0a;
+}
+
+/* line 101, ../sass/dhl-begin.scss */
+.main-navbar * li:hover {
+  background-color: rgba(172, 147, 167, 0.5);
+}
+
+/* line 104, ../sass/dhl-begin.scss */
+.main-navbar * li:nth-child(1) {
+  box-shadow: 0 0.12em 0 0 #ff00f2, 0 0.2em 0 0 black, 0.15em 0.15em 0 0 black;
+}
+
+/* line 109, ../sass/dhl-begin.scss */
+.main-navbar * li:nth-child(1):hover {
+  box-shadow: 0 0.2em 0 -0.08em black, 0.08em 0.3em 0 -0.08em #ff00f2, 0.15em 0.15em 0 0 black;
+}
+
+/* line 114, ../sass/dhl-begin.scss */
+.main-navbar * li:nth-child(2) {
+  box-shadow: 0.08em 0.2em 0 -0.07em #ff4d00, 0 0.2em 0 0 black, 0.15em 0.15em 0 0 black;
+}
+
+/* line 120, ../sass/dhl-begin.scss */
+.main-navbar * li:nth-child(2):hover {
+  box-shadow: 0 0.2em 0 -0.08em black, 0.08em 0.3em 0 -0.08em #ff4d00, 0.15em 0.15em 0 0 black;
+}
+
+/* line 126, ../sass/dhl-begin.scss */
+.main-navbar * li:nth-child(3) {
+  box-shadow: 0.08em 0.2em 0 -0.08em #00ff04, 0 0.2em 0 0 black;
+}
+
+/* line 131, ../sass/dhl-begin.scss */
+.main-navbar * li:nth-child(3):hover {
+  box-shadow: 0 0.2em 0 -0.08em black, 0.08em 0.3em 0 -0.08em #00ff04;
+}
+
+/* line 136, ../sass/dhl-begin.scss */
+.img-barra2 {
+  background-image: url("../../img/barra-2.svg");
+  background-repeat: repeat-x;
+  background-size: 2.8em;
+  height: 2.8em;
+}
+
+/* line 144, ../sass/dhl-begin.scss */
+.main-content {
+  background-color: rgba(172, 147, 167, 0.6);
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+/* line 150, ../sass/dhl-begin.scss */
+.box-left, .box-right {
+  /*172,147,167,0.6*/
+  /*243,243,243,1*/
+  background-color: rgba(172, 147, 167, 0.1);
+  /*rgba(172,147,167,0.6)*/
+  margin-top: 0.5em;
+}
+
+/* line 157, ../sass/dhl-begin.scss */
+.box-right {
+  width: 30%;
+}
+
+/* line 161, ../sass/dhl-begin.scss */
+.box-left {
+  width: 20%;
+}
+
+/* line 164, ../sass/dhl-begin.scss */
+.box-center {
+  margin-top: 0.5em;
+  background-color: #fafaff;
+  width: 50%;
+  min-height: 50em;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 173, ../sass/dhl-begin.scss */
+.main-footer {
+  align-self: flex-end;
+  padding: 1em 0 0 0;
+  width: 100%;
+  min-height: 5em;
+  background-color: #f0f0ff;
+  box-shadow: 0 -0.01em 0.1em 0 rgba(172, 147, 167, 0.8);
+}
+
+/* line 182, ../sass/dhl-begin.scss */
+.prev-article {
+  display: flex;
+  flex-direction: column;
+}
+/* line 185, ../sass/dhl-begin.scss */
+.prev-article h1 {
+  align-self: flex-start;
+  margin: 1em 0 0 1em;
+}
+
+/* line 191, ../sass/dhl-begin.scss */
+.hr-prev-article {
+  margin: 1em 0 0 0;
+  padding: 0 0 1em 0;
+  height: 10px;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+/* line 197, ../sass/dhl-begin.scss */
+.msg-construct {
+  background-image: url("../../img/aviso.svg");
+  background-repeat: no-repeat;
+  background-size: 20em;
+  position: fixed;
+  width: 20em;
+  height: 3em;
+  background-color: rgba(250, 150, 0, 0.1);
+  transform: rotate(45deg);
+  z-index: 16;
+  top: 4em;
+  right: -3.9em;
+  box-shadow: 0 0 10px 2px black;
+  font-size: 1em;
+}
+
+/* line 213, ../sass/dhl-begin.scss */
+.article {
+  display: flex;
+  flex-direction: column;
+  min-height: 10em;
+}
+
+/* line 218, ../sass/dhl-begin.scss */
+.header-article {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0 0 2em;
+  box-shadow: 0 0.1em 0.1em 0 rgba(172, 147, 167, 0.8);
+}
+
+/* line 226, ../sass/dhl-begin.scss */
+.header-article > * {
+  align-self: flex-start;
+}
+
+/* line 230, ../sass/dhl-begin.scss */
+.header-article > h1 {
+  margin: 0 0 .155em 0;
+}
+
+/* line 233, ../sass/dhl-begin.scss */
+.text-article {
+  margin: 0 0 1em 0;
+}
+
+/* line 237, ../sass/dhl-begin.scss */
+.categories-article {
+  display: flex;
+  height: 2em;
+  width: 100%;
+  justify-content: left;
+  padding: 0 0 0 2em;
+  /*background-color: rgba(172, 147, 167, 0.8);*/
+}
+
+/* line 246, ../sass/dhl-begin.scss */
+.categories-article span {
+  padding: .5em .2em 0 .2em;
+  margin: 0 .1em 0 .1em;
+  background-color: rgba(172, 147, 167, 0.8);
+}
+
+/* line 252, ../sass/dhl-begin.scss */
+.section-comments {
+  margin: 2em 2em 0 2em;
+}
+
+/* line 256, ../sass/dhl-begin.scss */
+.box-center-content {
+  flex-grow: 1;
+}
+
+/*estilizalção da página de formulario*/
+/* line 261, ../sass/dhl-begin.scss */
+.box-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+}
+
+/* line 268, ../sass/dhl-begin.scss */
+.div-contact {
+  width: 85%;
+  /*height: 10%;*/
+  padding: 2em;
+  background-color: rgba(172, 147, 167, 0.5);
+  /*margin: 2em 0 2em 0;*/
+}
+
+/*.msg-contact > p{
+  margin: 0;
+}*/
+/* line 280, ../sass/dhl-begin.scss */
+.div-contact {
+  margin: 2em 0 0 0;
+}
+
+/* line 284, ../sass/dhl-begin.scss */
+.flex-outer {
+  margin: 0 auto 0 0;
+}
+
+/* line 291, ../sass/dhl-begin.scss */
+.flex-outer li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* line 298, ../sass/dhl-begin.scss */
+.flex-outer li label {
+  text-transform: uppercase;
+  letter-spacing: .09;
+  padding: .5em;
+  /*height: 2.5em;*/
+}
+
+/* line 305, ../sass/dhl-begin.scss */
+.flex-outer > li > label {
+  /*min-width: 10em;
+  width: 15em;*/
+  flex: 1 0 7.5em;
+  max-width: 13.75em;
+}
+
+/* line 312, ../sass/dhl-begin.scss */
+.flex-outer > li > label + * {
+  flex: 1 0 13.75em;
+}
+
+/* line 316, ../sass/dhl-begin.scss */
+.flex-outer li {
+  margin: 0;
+}
+
+/* line 319, ../sass/dhl-begin.scss */
+.flex-outer > li:not(:last-child) {
+  padding: 0 0 2em 0;
+}
+
+/* line 323, ../sass/dhl-begin.scss */
+.flex-outer li input:not([type='submit']),
+.flex-outer li textarea {
+  padding: .93em;
+  border: none;
+}
+
+/* line 329, ../sass/dhl-begin.scss */
+.flex-outer li:last-of-type {
+  justify-content: flex-end;
+}
+/* line 331, ../sass/dhl-begin.scss */
+.flex-outer li:last-of-type input {
+  /*margin-left: auto;*/
+  padding: .5em 1em;
+}
